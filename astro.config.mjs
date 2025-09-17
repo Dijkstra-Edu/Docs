@@ -62,6 +62,8 @@ export default defineConfig({
                       // Each item here is one entry in the navigation menu.
                       { label: 'Example Guide', slug: 'guides/example' },
                       { label: 'Authoring Content', slug: 'guides/authoring-content' },
+                      { label: 'Join Djikstra', slug: 'guides/join-djikstra' },
+                      { label: 'Publicise Your Organization Status', slug: 'guides/publicise-status' },
                   ],
               },
               {
