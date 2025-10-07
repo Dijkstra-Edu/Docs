@@ -210,7 +210,7 @@ export default defineConfig({
             { label: 'Code of Conduct', slug: 'community/code-of-conduct' },
             { label: 'Contributor Agreements', slug: 'community/contributor-agreements' },
             { label: 'Governance', slug: 'community/governance' },
-            { label: 'License', slug: 'community/liscense' },
+            { label: 'License', slug: 'community/license' },
             { label: 'Privacy Policy', slug: 'community/privacy-policy' },
             { label: 'Terms of Service', slug: 'community/terms-of-service' },
           ],
