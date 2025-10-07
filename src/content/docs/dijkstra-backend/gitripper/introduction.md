@@ -1,6 +1,6 @@
 ---
-title: "Introduction to DataForge"
-description: "Learn the basics of DataForge in Dijkstra Backend."
+title: "Introduction to GitRipper"
+description: "Learn the basics of GitRipper in Dijkstra Backend."
 ---
 
-Content goes here...
+# Introduction to GitRipper

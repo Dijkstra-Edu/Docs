@@ -1,77 +1,237 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import starlightThemeRapide from 'starlight-theme-rapide'
-
+import starlightThemeRapide from 'starlight-theme-rapide';
 import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
-      starlight({
-          title: 'Dijkstra Docs',
-          logo: {
-              src: './public/icon.png',
-              alt: 'Dijkstra Logo',
-          },
-          customCss: [
-              './src/styles/global.css',
+    starlight({
+      title: 'Dijkstra Docs',
+      logo: {
+        src: './public/icon.png',
+        alt: 'Dijkstra Logo',
+      },
+      customCss: ['./src/styles/global.css'],
+      plugins: [starlightThemeRapide()],
+      social: [
+        {
+          icon: 'github',
+          label: 'GitHub',
+          href: 'https://github.com/Dijkstra-Edu',
+        },
+      ],
+      sidebar: [
+        {
+          label: 'Dijkstra Introduction',
+          items: [
+            { label: 'Introduction', slug: 'dijkstra-introduction/introduction' },
+            { label: 'Mission', slug: 'dijkstra-introduction/mission' },
+            { label: 'Approach', slug: 'dijkstra-introduction/approach' },
+            { label: 'Philosophy', slug: 'dijkstra-introduction/philosophy' },
+            { label: 'Onboarding', slug: 'dijkstra-introduction/onboarding' },
+            { label: 'Projects and Architecture', slug: 'dijkstra-introduction/projects-and-architecture' },
           ],
-          plugins: [starlightThemeRapide()],
-          social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Dijkstra-Edu' }],
-          sidebar: [
+        },
+        {
+          label: 'Getting Started',
+          items: [
+            { label: 'Start Here', slug: 'getting-started/start-here' },
             {
-                  label: 'Introduction to Dijkstra',
+              label: 'Contributors',
+              items: [
+                { label: 'Prerequisites', slug: 'getting-started/contributors/prerequisistes' },
+                { label: 'Contribution Guidelines', slug: 'getting-started/contributors/contribution-guidelines' },
+                { label: 'Architectural Guidelines', slug: 'getting-started/contributors/architectural-guidelines' },
+                { label: 'Coding Conventions', slug: 'getting-started/contributors/coding-conventions' },
+                { label: 'Stylistic Guidelines', slug: 'getting-started/contributors/stylistic-guidelines' },
+                { label: 'Process', slug: 'getting-started/contributors/process' },
+                {
+                  label: 'Examples',
                   items: [
-                      // Each item here is one entry in the navigation menu.
-                      { label: 'Example Guide', slug: 'guides/example' },
-                      { label: 'Authoring Content', slug: 'guides/authoring-content' },
+                    { label: 'How to Setup Environment', slug: 'getting-started/contributors/examples/how-to-setup-environment' },
                   ],
-              },
-              {
-                    label: 'Dijkstra Backend',
-                    items: [
-                        {
-                            label: 'DataForge - Main Dijkstra BE',
-                            items: [
-                                { label: 'Introduction', slug: 'dijkstra-backend/dataforge/introduction' },
-                                { label: 'PostGreSQL Setup Guide', slug: 'dijkstra-backend/dataforge/postgres-setup' },
-                            ],
-                        },
-                        {
-                            label: 'GitRipper - GitHub Stats Aggregator',
-                            items: [
-                                { label: 'Endpoints', slug: 'dijkstra-backend/gitripper/introduction' },
-                                { label: 'Authentication', slug: 'dijkstra-backend/gitripper/postgres-setup' },
-                            ],
-                        },
-                    ],
-                    },
-
-              {
-                  label: 'Dijkstra Frontend',
+                },
+              ],
+            },
+            {
+              label: 'Maintainers',
+              items: [
+                { label: 'Maintenance Guidelines', slug: 'getting-started/maintainers/maintenance-guidelines' },
+                {
+                  label: 'Examples and Cases',
                   items: [
-                      // Each item here is one entry in the navigation menu.
-                      { label: 'Example Guide', slug: 'guides/example' },
-                      { label: 'Authoring Content', slug: 'guides/authoring-content' },
+                    { label: 'How to Review PRs', slug: 'getting-started/maintainers/examples-and-cases/how-to-review-prs' },
+                    { label: 'Issue Management', slug: 'getting-started/maintainers/examples-and-cases/issue-management' },
                   ],
-              },
-              {
-                  label: 'Getting Started',
-                  items: [
-                      // Each item here is one entry in the navigation menu.
-                      { label: 'Example Guide', slug: 'guides/example' },
-                      { label: 'Authoring Content', slug: 'guides/authoring-content' },
-                  ],
-              },
-              {
-                  label: 'Reference',
-                  autogenerate: { directory: 'reference' },
-              },
+                },
+              ],
+            },
           ],
-      }),
-	],
-
+        },
+        {
+          label: 'Dijkstra Backend',
+          items: [
+            {
+              label: 'DataForge',
+              items: [
+                { label: 'Introduction', slug: 'dijkstra-backend/dataforge/introduction' },
+                { label: 'Postgres Setup', slug: 'dijkstra-backend/dataforge/postgres-setup' },
+                {
+                  label: 'Setup & Deployment',
+                  items: [
+                    { label: 'How Deployment Works', slug: 'dijkstra-backend/dataforge/setup-and-deployment/how-deployment-works' },
+                    { label: 'How to Run Locally', slug: 'dijkstra-backend/dataforge/setup-and-deployment/how-to-run-locally' },
+                    { label: 'How to Test', slug: 'dijkstra-backend/dataforge/setup-and-deployment/how-to-test' },
+                  ],
+                },
+                {
+                  label: 'Recreation',
+                  items: [
+                    { label: 'How to Recreate DataForge', slug: 'dijkstra-backend/dataforge/recreation/how-to-recreate-dataforge' },
+                  ],
+                },
+              ],
+            },
+            {
+              label: 'GitRipper',
+              items: [
+                { label: 'Introduction', slug: 'dijkstra-backend/gitripper/introduction' },
+                { label: 'Postgres Setup', slug: 'dijkstra-backend/gitripper/postgres-setup' },
+                {
+                  label: 'Setup & Deployment',
+                  items: [
+                    { label: 'How Deployment Works', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-deployment-works' },
+                    { label: 'How to Run Locally', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-to-run-locally' },
+                    { label: 'How to Test', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-to-test' },
+                  ],
+                },
+                {
+                  label: 'Recreation',
+                  items: [
+                    { label: 'How to Recreate GitRipper', slug: 'dijkstra-backend/gitripper/recreation/how-to-recreate-gitripper' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          label: 'Dijkstra Frontends',
+          items: [
+            {
+              label: 'Dijkstra Blog',
+              items: [
+                { label: 'Introduction', slug: 'dijkstra-frontends/dijkstra-blog/introduction' },
+                {
+                  label: 'Setup & Deployment',
+                  items: [
+                    { label: 'How Deployment Works', slug: 'dijkstra-frontends/dijkstra-blog/setup-and-deployment/how-deployment-works' },
+                    { label: 'How to Run Locally', slug: 'dijkstra-frontends/dijkstra-blog/setup-and-deployment/how-to-run-locally' },
+                    { label: 'How to Test', slug: 'dijkstra-frontends/dijkstra-blog/setup-and-deployment/how-to-test' },
+                  ],
+                },
+                {
+                  label: 'Recreation',
+                  items: [
+                    { label: 'How to Recreate Blog', slug: 'dijkstra-frontends/dijkstra-blog/recreation/how-to-recreate-blog' },
+                  ],
+                },
+              ],
+            },
+            {
+              label: 'Dijkstra Companies',
+              items: [
+                { label: 'Introduction', slug: 'dijkstra-frontends/dijkstra-companies/introduction' },
+                {
+                  label: 'Setup & Deployment',
+                  items: [
+                    { label: 'How Deployment Works', slug: 'dijkstra-frontends/dijkstra-companies/setup-and-deployment/how-deployment-works' },
+                    { label: 'How to Run Locally', slug: 'dijkstra-frontends/dijkstra-companies/setup-and-deployment/how-to-run-locally' },
+                    { label: 'How to Test', slug: 'dijkstra-frontends/dijkstra-companies/setup-and-deployment/how-to-test' },
+                  ],
+                },
+              ],
+            },
+            {
+              label: 'Dijkstra HQ',
+              items: [
+                { label: 'Introduction', slug: 'dijkstra-frontends/dijkstra-hq/introduction' },
+                {
+                  label: 'Setup & Deployment',
+                  items: [
+                    { label: 'How Deployment Works', slug: 'dijkstra-frontends/dijkstra-hq/setup-and-deployment/how-deployment-works' },
+                    { label: 'How to Run Locally', slug: 'dijkstra-frontends/dijkstra-hq/setup-and-deployment/how-to-run-locally' },
+                    { label: 'How to Test', slug: 'dijkstra-frontends/dijkstra-hq/setup-and-deployment/how-to-test' },
+                  ],
+                },
+              ],
+            },
+            {
+              label: 'Dijkstra University',
+              items: [
+                { label: 'Introduction', slug: 'dijkstra-frontends/dijkstra-university/introduction' },
+                {
+                  label: 'Setup & Deployment',
+                  items: [
+                    { label: 'How Deployment Works', slug: 'dijkstra-frontends/dijkstra-university/setup-and-deployment/how-deployment-works' },
+                    { label: 'How to Run Locally', slug: 'dijkstra-frontends/dijkstra-university/setup-and-deployment/how-to-run-locally' },
+                    { label: 'How to Test', slug: 'dijkstra-frontends/dijkstra-university/setup-and-deployment/how-to-test' },
+                  ],
+                },
+              ],
+            },
+            {
+              label: 'Dijkstra Web',
+              items: [
+                { label: 'Introduction', slug: 'dijkstra-frontends/dijkstra-web/introduction' },
+                {
+                  label: 'Setup & Deployment',
+                  items: [
+                    { label: 'How Deployment Works', slug: 'dijkstra-frontends/dijkstra-web/setup-and-deployment/how-deployment-works' },
+                    { label: 'How to Run Locally', slug: 'dijkstra-frontends/dijkstra-web/setup-and-deployment/how-to-run-locally' },
+                    { label: 'How to Test', slug: 'dijkstra-frontends/dijkstra-web/setup-and-deployment/how-to-test' },
+                  ],
+                },
+                {
+                  label: 'Recreation',
+                  items: [
+                    { label: 'How to Recreate Web', slug: 'dijkstra-frontends/dijkstra-web/recreation/how-to-recreate-web' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          label: 'Community',
+          items: [
+            { label: 'Code of Conduct', slug: 'community/code-of-conduct' },
+            { label: 'Governance', slug: 'community/governance' },
+            { label: 'License', slug: 'community/liscense' },
+            { label: 'Privacy Policy', slug: 'community/privacy-policy' },
+            { label: 'Terms of Service', slug: 'community/terms-of-service' },
+            { label: 'Contributor Agreements', slug: 'community/contributor-agreements' },
+          ],
+        },
+        {
+          label: 'FAQs',
+          items: [
+            { label: 'Common Issues', slug: 'faqs/common-issues' },
+            { label: 'Typical Git Errors', slug: 'faqs/typical-git-errors' },
+            { label: 'Links & Discussions', slug: 'faqs/links-discussions' },
+          ],
+        },
+        {
+          label: 'Guides',
+          items: [
+            { label: 'Authoring Content', slug: 'guides/authoring-content' },
+          ],
+        },
+      ],
+    }),
+  ],
   vite: {
     plugins: [tailwindcss()],
   },
