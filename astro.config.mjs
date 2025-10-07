@@ -208,11 +208,11 @@ export default defineConfig({
           label: 'Community',
           items: [
             { label: 'Code of Conduct', slug: 'community/code-of-conduct' },
+            { label: 'Contributor Agreements', slug: 'community/contributor-agreements' },
             { label: 'Governance', slug: 'community/governance' },
             { label: 'License', slug: 'community/liscense' },
             { label: 'Privacy Policy', slug: 'community/privacy-policy' },
             { label: 'Terms of Service', slug: 'community/terms-of-service' },
-            { label: 'Contributor Agreements', slug: 'community/contributor-agreements' },
           ],
         },
         {
@@ -227,6 +227,8 @@ export default defineConfig({
           label: 'Guides',
           items: [
             { label: 'Authoring Content', slug: 'guides/authoring-content' },
+            { label: 'Join Dijkstra', slug: 'guides/join-djikstra' },
+            { label: 'Publicise Status', slug: 'guides/publicise-status' },
           ],
         },
       ],
