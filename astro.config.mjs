@@ -29,7 +29,7 @@ export default defineConfig({
             { label: 'Introduction', slug: 'dijkstra-introduction/introduction' },
             { label: 'Mission', slug: 'dijkstra-introduction/mission' },
             { label: 'Approach', slug: 'dijkstra-introduction/approach' },
-            { label: 'Philosophy', slug: 'dijkstra-introduction/philosophy' },            
+            { label: 'Philosophy', slug: 'dijkstra-introduction/philosophy' },
             { label: 'Projects and Architecture', slug: 'dijkstra-introduction/projects-and-architecture' },
           ],
         },
@@ -37,10 +37,12 @@ export default defineConfig({
           label: 'Getting Started',
           items: [
             { label: 'Start Here', slug: 'getting-started/start-here' },
-            { label: 'Onboarding',
+            {
+              label: 'Onboarding',
               items: [
                 { label: 'Onboarding Steps', slug: 'getting-started/onboarding/onboarding' },
-                { label: 'Setup Guides',
+                {
+                  label: 'Setup Guides',
                   items: [
                     { label: 'GitHub', slug: 'getting-started/onboarding/guides/github' },
                     { label: 'LinkedIn', slug: 'getting-started/onboarding/guides/linkedin' },
@@ -240,9 +242,32 @@ export default defineConfig({
           ],
         },
         {
+          label: 'GSOC 2026',
+          items: [
+            { label: 'Overview', slug: 'gsoc-2026/overview' },
+            { label: 'Project Proposal', slug: 'gsoc-2026/project-proposal' },
+            { label: 'Project List', slug: 'gsoc-2026/project-list' },
+            {
+              label: 'Project List', items: [
+                { label: 'iOS Mobile App', slug: 'gsoc-2026/project-list/ios-mobile-app' },
+                { label: 'Android Mobile App', slug: 'gsoc-2026/project-list/android-mobile-app' },
+                { label: 'Testing Setup', slug: 'gsoc-2026/project-list/testing-setup' },
+                { label: 'DataForge Cleanup', slug: 'gsoc-2026/project-list/dataforge-cleanup' },
+                { label: 'Learning Content', slug: 'gsoc-2026/project-list/learning-content' },
+                { label: 'Learning Hub', slug: 'gsoc-2026/project-list/learning-hub' },
+                { label: 'Verifications Engine', slug: 'gsoc-2026/project-list/verifications-engine' },
+                { label: 'Browser Extension', slug: 'gsoc-2026/project-list/browser-extension' },
+                { label: 'ENV Locker CLI', slug: 'gsoc-2026/project-list/env-locker-cli' },
+                { label: 'Community Improvements', slug: 'gsoc-2026/project-list/community-improvements' },
+              ]
+            },
+
+          ],
+        },
+        {
           label: 'Guides',
           items: [
-            { label: 'Authoring Content', slug: 'guides/authoring-content' }            
+            { label: 'Authoring Content', slug: 'guides/authoring-content' }
           ],
         },
       ],
