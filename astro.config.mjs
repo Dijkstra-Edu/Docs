@@ -30,7 +30,23 @@ export default defineConfig({
             { label: 'Mission', slug: 'dijkstra-introduction/mission' },
             { label: 'Approach', slug: 'dijkstra-introduction/approach' },
             { label: 'Philosophy', slug: 'dijkstra-introduction/philosophy' },
-            { label: 'Onboarding', slug: 'dijkstra-introduction/onboarding' },
+            { label: 'Onboarding',
+              items: [
+                { label: 'Onboarding Steps', slug: 'dijkstra-introduction/onboarding/onboarding' },
+                { label: 'Setup Guides',
+                  items: [
+                    { label: 'GitHub', slug: 'dijkstra-introduction/onboarding/guides/github' },
+                    { label: 'LinkedIn', slug: 'dijkstra-introduction/onboarding/guides/linkedin' },
+                    { label: 'Discord', slug: 'dijkstra-introduction/onboarding/guides/discord' },
+                    { label: 'Git', slug: 'dijkstra-introduction/onboarding/guides/git' },
+                    { label: 'Leetcode', slug: 'dijkstra-introduction/onboarding/guides/leetcode' },
+                    { label: 'VS Code', slug: 'dijkstra-introduction/onboarding/guides/vscode' },
+                  ],
+                },
+                { label: 'Join Dijkstra', slug: 'dijkstra-introduction/onboarding/join-djikstra' },
+                { label: 'Publicise Status', slug: 'dijkstra-introduction/onboarding/publicise-status' },
+              ],
+            },
             { label: 'Projects and Architecture', slug: 'dijkstra-introduction/projects-and-architecture' },
           ],
         },
@@ -226,9 +242,7 @@ export default defineConfig({
         {
           label: 'Guides',
           items: [
-            { label: 'Authoring Content', slug: 'guides/authoring-content' },
-            { label: 'Join Dijkstra', slug: 'guides/join-djikstra' },
-            { label: 'Publicise Status', slug: 'guides/publicise-status' },
+            { label: 'Authoring Content', slug: 'guides/authoring-content' }            
           ],
         },
       ],
