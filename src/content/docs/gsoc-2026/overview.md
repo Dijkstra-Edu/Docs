@@ -7,12 +7,19 @@ description: Overview of GSOC at Dijkstra
 
 The [Google Summer of Code (GSOC)](https://summerofcode.withgoogle.com/) is a program that allows students to contribute to the development of open-source projects, mentored by participating organizations.
 
-# GSoC 2026
+In 2026, Dijkstra aims to participate as a mentoring organization, with the overall aim being to foster good open source activity among students in universities. Please have a look at the general [program rules](https://summerofcode.withgoogle.com/rules/) and the [timeline](https://developers.google.com/open-source/gsoc/timeline) provided by Google.
 
-In 2026, Dijkstra aims to participate as a mentoring organization, with the overall aim being to foster good open source activity among students in universities. Please have a look at the general [program rules](https://summerofcode.withgoogle.com/rules/) and the [timeline](https://hepsoftwarefoundation.org/activities/gsoc.html#timeline) provided by Google.
+Dijkstra is an open=source organization aimed towards improving CS education in India (and the world!). The world of software is ever changing and evolving, and we would like to be at the forefront to help students prepare for software based jobs, by building up their fundamentals through visibile and credible proof-of-work.
 
-The selection process in our organization will be split into two phases. All candidates will have to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. The successful candidates will have a detailed exchange with mentors on a given project idea, and their proposals are then evaluated for the final student selection. The detailed [timeline](https://hepsoftwarefoundation.org/activities/gsoc.html#timeline) of these phases is shown below.
+### Why does Dijkstra wish to participate in GSOC?
 
+It fundamentally aligns with what Dijkstra as an organization wishes to achieve. We would like to open the world of open source to Indian students, the *right* way; by enforcing good coding practices and by continuously improving themselves in the field of Computer Science. Some other ways we benefit from joining GSOC:
+
+- It bring new contributors to the Dijkstra community
+- Helps raise the visibility of Dijkstra in the open-source and online education ecosystem
+- Pay students so time is not a barrier to participation
+- Provide opportunities for existing members to mentor, and to continue the cycle of learning -> mentoring
+- Mentors learn, get a chance to practice leadership and improve their communication skills
 
 # For Students
 
