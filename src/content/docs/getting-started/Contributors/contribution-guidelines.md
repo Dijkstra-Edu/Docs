@@ -42,7 +42,7 @@ Please open an issue before:
    ```bash
    git clone https://github.com/<YOUR_USERNAME>/<repository>.git
 
-   cd Dijkstra-Web
+   cd <repository>
    ```
 3. **Create a new branch** for your feature/fix:
    ```bash
@@ -79,10 +79,10 @@ Please open an issue before:
 
 ### Usage of AI: Policies and Guidelines
 ---
-You can use any tool to help you understand Dijkstra's codebase and write good code. However, you are always required to understand and explain the changes propose. The answer to "Why X change?" 
+You can use any tool to help you understand Dijkstra's codebase and write good code. However, you are always required to understand and explain the changes propose. The answer to "Why X change" should never be "The AI did it, I'm not sure."
 
 #### AI Code
-- Make sure you are familiar with the codebase should never be "The AI did it, I'm not sure."
+- Make sure you are familiar with the codebase you are working on. This would help you write better prompts and validate the output i.e if you do use an LLM
 
 - Split the changes into coherent commits, even if an LLM generates them all in one go. 
 
