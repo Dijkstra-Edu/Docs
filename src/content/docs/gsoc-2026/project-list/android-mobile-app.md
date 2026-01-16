@@ -1,13 +1,12 @@
 ---
-title: Mobile Development - Android Recreation of Dijkstra Web
+title: Android Recreation of Dijkstra Web
 description: Android mobile application recreation of Dijkstra Web platform
 ---
 
-# Mobile Development - Android Recreation of Dijkstra Web
-
-**Duration:** Really Long  
-**Difficulty:** Medium
-**Repository:**
+**Duration:** 350 Hours \
+**Difficulty:** Medium \
+**Languages & Technologies:** Kotlin, Android Studio \
+**Repository:** [Dijkstra-Edu/Dijkstra-Android](https://github.com/Dijkstra-Edu/Dijkstra-Android)
 
 ## Description
 

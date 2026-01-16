@@ -1,12 +1,12 @@
 ---
-title: Mobile Development - iOS Recreation of Dijkstra Web
+title: iOS Recreation of Dijkstra Web
 description: iOS mobile application recreation of Dijkstra Web platform
 ---
 
-# Mobile Development - iOS Recreation of Dijkstra Web
-
-**Duration:** Really Long  
-**Difficulty:** Medium
+**Duration:** 350 Hours \
+**Difficulty:** Medium \
+**Languages & Technologies:** Swift \
+**Repository:** [Dijkstra-Edu/Dijkstra-ios](https://github.com/Dijkstra-Edu/Dijkstra-IOS)
 
 ## Overview
 
