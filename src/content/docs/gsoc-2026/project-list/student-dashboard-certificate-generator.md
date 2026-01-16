@@ -1,9 +1,12 @@
 ---
-title: Web Development - Student Public Dashboard and Certificate Generator
+title: Student Public Dashboard and Certificate Generator
 description: Development of a student public dashboard and certificate generator for the Dijkstra platform
 ---
 
-# Web Development - Student Public Dashboard and Certificate Generator
+**Duration:** 175-350 Hours \
+**Difficulty:** Medium \
+**Languages & Technologies:** TypeScript \
+**Repository:** [Dijkstra-Edu/Dijkstra-Web](https://github.com/Dijkstra-Edu/Dijkstra-Web), [Dijkstra-Edu/Dataforge](https://github.com/Dijkstra-Edu/Dataforge), [Dijkstra-Edu/Gitripper](https://github.com/Dijkstra-Edu/Gitripper)
 
 ## Overview
 
@@ -37,4 +40,6 @@ This project involves developing a public dashboard for students to showcase the
 
 ## Mentors
 
-## Proposal Advise
+- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/jrs296))
+
+> We would like you to hopefully mentor the next generation as well! (This is the Dijkstra way, we learn to teach!) and to hopefully become a codeowner that other developers can look to for knowledge and guidance down the years.

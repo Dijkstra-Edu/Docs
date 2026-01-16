@@ -1,12 +1,12 @@
 ---
-title: Web Development - Browser Extension for Autofilling Profile Data
+title: Browser Extension for Autofilling Profile Data
 description: Browser extension to autofill profile data on Dijkstra platform
 ---
 
-# Web Development - Browser Extension for Autofilling Profile Data
-
-**Duration:** Small  
-**Difficulty:** Easy
+**Duration:** 90 Hours \
+**Difficulty:** Easy \
+**Languages & Technologies:** TypeScript \
+**Repository:** [Dijkstra-Edu/Dijkstra-Android](https://github.com/Dijkstra-Edu/Autofill)
 
 ## Overview
 
@@ -35,3 +35,9 @@ This project involves creating a browser extension that can automatically fill i
 - User documentation
 - Privacy and security documentation
 - Extension store submissions (if applicable)
+
+## Mentors
+
+- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/jrs296))
+
+> We would like you to hopefully mentor the next generation as well! (This is the Dijkstra way, we learn to teach!) and to hopefully become a codeowner that other developers can look to for knowledge and guidance down the years.

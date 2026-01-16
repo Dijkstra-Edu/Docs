@@ -6,8 +6,8 @@ description: Dijkstra Project List for GSOC 2026
 ### Full List of Dijkstra Projects and Potential Proposals
 
 - Mobile Development
-  - [IOS Recreation of Dijkstra Web](/gsoc-2026/project-list/ios-mobile-app) - 350 Hours, Medium, Swift
-  - [Android Recreation of Dijkstra Web](/gsoc-2026/project-list/android-mobile-app) - 350 hours, Medium, Kotlin
+  - [IOS Recreation of Dijkstra Web](/gsoc-2026/project-list/ios-mobile-app) - 350 Hours, Hard, Swift
+  - [Android Recreation of Dijkstra Web](/gsoc-2026/project-list/android-mobile-app) - 350 hours, Hard, Kotlin
 
 - Web (Frontend) Development
   - [Learning Hub for Dijkstra Web](/gsoc-2026/project-list/learning-hub) - 350 Hours, Medium, TypeScript, Next.js
@@ -27,7 +27,7 @@ description: Dijkstra Project List for GSOC 2026
 
 - Docs
   - [Creation of Learning Content for Dijkstra](/gsoc-2026/project-list/learning-content) - 90-350 hours, Medium, Research, Education, Markdown
-  - [Improvements to Community Pages/Resources](/gsoc-2026/project-list/community-improvements) - 90 hours, Easy, TypeScript, Markdown
+<!--  - [Improvements to Community Pages/Resources](/gsoc-2026/project-list/community-improvements) - 90 hours, Easy, TypeScript, Markdown -->
 
 - Experiemental Ideas (but low priority)
   - [CLI Development - ENV Variables locker for users](/gsoc-2026/project-list/env-locker-cli) - 175 hours, Medium, Undecided

@@ -34,7 +34,7 @@ If you want to discuss our suggested project ideas or your own idea, you can do 
 
 Dijkstra has three [organization admins](https://developers.google.com/open-source/gsoc/help/responsibilities) whose goal is to facilitate the communication of potential GSoC contributors and the mentors, and to manage the administration of the GSoC projects:
 - Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/jrs296))
-- Dellwyn Tennison ([GitHub](https://github.com/happydracula), [Discord]())
+- Dellwyn Tennison ([GitHub](https://github.com/happydracula), [Discord](https://discord.com/happydracula))
 - Kush Ojha ([GitHub](https://github.com/keri-prog), [Discord](https://discord.com/keri_k))
 
 When communicating on the Dijkstra Discord (and when interacting with the Dijkstra community in general), please remember to be polite and uphold the [Code of Conduct](). Please treat both contributors and mentors alike with respect and avoid spamming.

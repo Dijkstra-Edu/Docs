@@ -1,9 +1,12 @@
 ---
-title: Backend Development - Verifications Engine
+title: Develop Dijkstra's Profile Verifications Engine
 description: Mechanism to verify user contributions and credentials
 ---
 
-# Backend Development - Verifications Engine
+**Duration:** 350 Hours \
+**Difficulty:** Hard \
+**Languages & Technologies:** TypeScript \
+**Repository:** [Dijkstra-Edu/Dijkstra-Web](https://github.com/Dijkstra-Edu/Dijkstra-Web), [Dijkstra-Edu/Dataforge](https://github.com/Dijkstra-Edu/Dataforge), [Dijkstra-Edu/Helios](https://github.com/Dijkstra-Edu/Helios)
 
 ## Overview
 
@@ -32,3 +35,10 @@ This project involves developing a comprehensive verification engine that can ve
 - Database schema and migrations
 - Security documentation
 - Integration with existing Dijkstra systems
+
+## Mentors
+
+- Dellwyn Tennison ([GitHub](https://github.com/happydracula), [Discord](https://discord.com/happydracula))
+- Kush Ojha ([GitHub](https://github.com/keri-prog), [Discord](https://discord.com/keri_k))
+
+> We would like you to hopefully mentor the next generation as well! (This is the Dijkstra way, we learn to teach!) and to hopefully become a codeowner that other developers can look to for knowledge and guidance down the years.

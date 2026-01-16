@@ -1,12 +1,12 @@
 ---
-title: Compliance and Code Cleanup - Dijkstra Web
+title: Dijkstra Web Code Cleanup and Optimizations
 description: Code cleanup and compliance improvements for the Dijkstra Web frontend
 ---
 
-# Compliance and Code Cleanup - Dijkstra Web
-
-**Duration:** Short to Long  
-**Difficulty:** Easy
+**Duration:** 90-175 Hours \
+**Difficulty:** Easy \
+**Languages & Technologies:** TypeScript, Next.js \
+**Repository:** [Dijkstra-Edu/Dijkstra-Web](https://github.com/Dijkstra-Edu/Dijkstra-Web)
 
 ## Overview
 
@@ -39,4 +39,6 @@ This project involves cleaning up and improving the codebase of Dijkstra Web to 
 
 ## Mentors
 
-## Proposal Advise
+- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/jrs296))
+
+> We would like you to hopefully mentor the next generation as well! (This is the Dijkstra way, we learn to teach!) and to hopefully become a codeowner that other developers can look to for knowledge and guidance down the years.

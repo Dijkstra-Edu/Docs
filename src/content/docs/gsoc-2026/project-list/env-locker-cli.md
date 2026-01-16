@@ -1,12 +1,12 @@
 ---
-title: CLI Development - ENV Variables Locker for Users
+title: ENV Variables Locker for Users
 description: Command-line tool for securely managing environment variables
 ---
 
-# CLI Development - ENV Variables Locker for Users
-
-**Duration:** Medium  
-**Difficulty:** Medium-Hard
+**Duration:** 175 Hours \
+**Difficulty:** Medium \
+**Languages & Technologies:** TBD \
+**Repository:** TBD
 
 ## Overview
 
@@ -36,3 +36,9 @@ This project involves developing a command-line interface (CLI) tool that allows
 - Cross-platform support
 - Comprehensive documentation
 - Usage examples and tutorials
+
+## Mentors
+
+- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/jrs296))
+
+> We would like you to hopefully mentor the next generation as well! (This is the Dijkstra way, we learn to teach!) and to hopefully become a codeowner that other developers can look to for knowledge and guidance down the years.

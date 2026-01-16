@@ -1,9 +1,12 @@
 ---
-title: Web Development - Learning Hub for Dijkstra Web
+title: Develop the Learning Hub for Dijkstra Web
 description: Development of a learning hub feature for the Dijkstra Web platform
 ---
 
-# Web Development - Learning Hub for Dijkstra Web
+**Duration:** 350 Hours \
+**Difficulty:** Medium \
+**Languages & Technologies:** TypeScript, Next.js \
+**Repository:** [Dijkstra-Edu/Dijkstra-Android](https://github.com/Dijkstra-Edu/Dijkstra-Web)
 
 ## Overview
 
@@ -31,3 +34,9 @@ This project involves developing a learning hub feature for the Dijkstra Web pla
 - Integration with existing Dijkstra Web platform
 - Progress tracking system
 - Documentation
+
+## Mentors
+
+- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/jrs296))
+
+> We would like you to hopefully mentor the next generation as well! (This is the Dijkstra way, we learn to teach!) and to hopefully become a codeowner that other developers can look to for knowledge and guidance down the years.
