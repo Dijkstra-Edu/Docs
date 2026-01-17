@@ -1,38 +1,119 @@
 ---
 title: Contribution Guidelines
-description: Steps and rules for contributing to Dijkstra projects.
+description: How to contribute effectively to Dijkstra projects.
 ---
 
-We welcome contributions from everyone, whether you're a first-time contributor or an experienced developer. 
+Welcome 👋  
+We’re genuinely glad you’re interested in contributing to **Dijkstra**.
 
-Kindly go through this document diligently. Following these steps and guidelines would help you contribute effectively. 
+Dijkstra is built and maintained by a community of students, educators, and developers. Whether this is your **first open-source contribution** or you’re an experienced engineer, your help is valued.
 
-### Getting Started !
+This document exists to:
+- set clear expectations for contributors
+- ensure high-quality, maintainable contributions
+- reduce review friction and iteration cycles
+- help you become an effective long-term contributor
+
+Please read this document carefully before opening an issue or pull request.
+
 ---
-We welcome:
-- bug fixes
-- documentation improvements
-- test additions
-- refactoring (with justification)
-- feature additions (via issues first)
 
-#### Working on issues 
+## Table of Contents
+- [What You Can Contribute](#what-you-can-contribute)
+- [Before You Start](#before-you-start)
+- [Finding & Working on Issues](#finding--working-on-issues)
+- [Proposing Changes](#proposing-changes)
+- [Development Workflow](#development-workflow)
+- [Pull Request Guidelines](#pull-request-guidelines)
+- [Commit Message Convention](#commit-message-convention)
+- [Testing & Quality Standards](#testing--quality-standards)
+- [Documentation Standards](#documentation-standards)
+- [Use of AI Tools](#use-of-ai-tools)
+- [Code of Conduct & Collaboration](#code-of-conduct--collaboration)
+- [Getting Help](#getting-help)
 
-We have several repositories you can check out, depending on your interests. 
+---
 
-You can look through issues tagged with "help wanted" or claim any other unnassigned issues. 
+## What You Can Contribute
 
-#### Bug Fixes or New Features
+We welcome contributions in many forms:
 
-Caught a bug ? Maybe you thought of something innovative. Raise an issue and begin contributing!
+- 🐛 Bug fixes
+- ✨ Feature additions (via issues first)
+- 🧹 Refactoring (with justification)
+- 🧪 Test additions and improvements
+- 📚 Documentation improvements
+- 🎨 UI/UX improvements (where applicable)
+- ⚙️ Tooling and developer experience improvements
 
-#### Instructions:
-Please open an issue before:
+If you’re unsure whether your idea fits—**open an issue and ask**.
+
+---
+
+## Before You Start
+
+Before contributing, please ensure you:
+
+1. Have read this document fully
+2. Are familiar with basic Git workflows (fork, branch, PR)
+3. Have set up the project locally and verified it runs
+4. Understand the purpose of the repository you’re contributing to
+
+If you’re new to open source, we strongly recommend starting with:
+- documentation fixes
+- small bug fixes
+- issues tagged `good first issue` or `help wanted`
+
+---
+
+## Finding & Working on Issues
+
+### Choosing an Issue
+- Browse open issues across Dijkstra repositories
+- Look for labels like:
+  - good first issue
+  - help wanted
+  - bug
+  - documentation
+- If an issue is unassigned, comment to claim it before starting work
+
+### Claiming an Issue
+Comment something like:
+"I’d like to work on this. Please assign it to me."
+
+Avoid working on issues already assigned unless you’ve coordinated with the assignee.
+
+---
+
+## Proposing Changes
+
+### Bug Fixes
+If you’ve found a bug:
+- Open an issue describing:
+  - expected behavior
+  - actual behavior
+  - steps to reproduce
+  - screenshots/logs if applicable
+
+### New Features
+For new features or major changes:
+- **Always open an issue first**
+- Describe:
+  - the problem being solved
+  - why existing solutions are insufficient
+  - a high-level implementation idea
+
+### Mandatory Issue Before:
+You **must** open an issue before:
 - introducing new dependencies
 - modifying core architecture
 - changing coding conventions
 - making large refactors
 - adding major features
+
+This avoids wasted effort and misalignment.
+
+---
 
 ### Contribution Guidelines:
 ---
@@ -69,35 +150,124 @@ Please open an issue before:
     - files modified/added
     - a reference to the issue it addresses
 
-### Best Practices 
+## Pull Request Guidelines
+
+Every PR must include:
+
+* A clear title using Conventional Commits
+* A detailed description covering:
+
+  * what was changed
+  * why the change was necessary
+  * how it was implemented
+* References to related issues (e.g. `Fixes #123`)
+* Screenshots, logs, or demos if applicable
+
+### Good PRs:
+
+* Are small and focused
+* Are easy to review
+* Include tests or justification if tests are not added
+* Respond promptly to feedback
+
 ---
-- Submit carefully tested code
-- Be responsive to feedback on pull requests. 
-- Add screenshots or demos where applicable.
-- Document new features and update relevant sections.
-- Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format for commit messages.
 
-### Usage of AI: Policies and Guidelines
+## Commit Message Convention
+
+We follow [**Conventional Commits**](https://www.conventionalcommits.org/en/v1.0.0/) 
+
+Examples:
+
+```text
+feat: add course progress tracking
+fix: handle null config in parser
+docs: improve setup instructions
+refactor: simplify auth middleware
+test: add edge cases for tokenizer
+```
+
+This enables automated changelogs and a cleaner project history.
+
 ---
-You can use any tool to help you understand Dijkstra's codebase and write good code. However, you are always required to understand and explain the changes propose. The answer to "Why X change" should never be "The AI did it, I'm not sure."
 
-#### AI Code
-- Make sure you are familiar with the codebase you are working on. This would help you write better prompts and validate the output i.e if you do use an LLM
+## Testing & Quality Standards
 
-- Split the changes into coherent commits, even if an LLM generates them all in one go. 
+* All code should be tested where feasible
+* Refactors must not change observable behavior unless explicitly intended
+* Avoid introducing regressions
+* Code should be readable, documented, and maintainable
 
-- Validate LLM outputs thoroughly before opening a PR. Test the code and make sure it's aligned with the requested feature or bug fix. 
+If you’re unsure how to test something, ask.
 
-#### AI Communication
-- Explain your reasoning, be it a PR or a code comment. Don't prompt an LLM to re-describe what can already be seen from the code. 
-
-- Do not misinterpret your work. Verify that everything you write is accurate. 
-
-### Collaboration
 ---
-- Join Dijkstra's [Discord](https://discord.gg/Ct82yF3KAU) Server
-- Communicate with fellow contributors, the maintainers in a friendly manner
-- Ask questions. Be as proactive as possible.
 
+## Documentation Standards
 
-#### Happy coding! Thank you for contributing to Dijkstra!
+* Update documentation when behavior changes
+* New features must be documented
+* Keep language clear, concise, and beginner-friendly
+* Avoid assumptions about prior knowledge
+
+Documentation is a **first-class contribution**.
+
+---
+
+## Use of AI Tools
+
+We allow the use of AI tools, including LLMs, **with responsibility**.
+
+### Expectations
+
+* You must understand every line you submit
+* You must be able to explain *why* changes were made
+* “The AI did it” is **not** an acceptable justification
+
+### AI Code Guidelines
+
+* Review and validate all generated output
+* Split changes into logical commits
+* Ensure alignment with project goals and style
+* Test everything before opening a PR
+
+### AI Communication Guidelines
+
+* Do not ask an AI to restate obvious code behavior
+* Ensure comments and explanations are accurate
+* Take ownership of your contributions
+
+---
+
+## Code of Conduct & Collaboration
+
+* Be respectful and kind
+* Assume good intent
+* Give constructive feedback
+* Help others learn
+* Disagreements are okay—disrespect is not
+
+We’re building a community, not just software.
+
+---
+
+## Getting Help
+
+* Join our [Discord Server](https://discord.gg/Ct82yF3KAU)
+* Ask questions on issues or PRs
+* Reach out to maintainers when blocked
+
+No question is “too basic.”
+
+---
+
+## Final Notes
+
+* Contributions are reviewed, not judged
+* Learning is encouraged
+* Consistency and clarity matter more than cleverness
+
+---
+
+### Happy coding 🚀
+
+Thank you for contributing to **Dijkstra**!
+
