@@ -116,21 +116,40 @@ export default defineConfig({
               label: 'GitRipper',
               items: [
                 { label: 'Introduction', slug: 'dijkstra-backend/gitripper/introduction' },
-                { label: 'Postgres Setup', slug: 'dijkstra-backend/gitripper/postgres-setup' },
                 {
                   label: 'Setup & Deployment',
                   items: [
-                    { label: 'How Deployment Works', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-deployment-works' },
+                    // { label: 'How Deployment Works', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-deployment-works' },
                     { label: 'How to Run Locally', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-to-run-locally' },
                     { label: 'How to Test', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-to-test' },
                   ],
                 },
+                // {
+                //   label: 'Recreation',
+                //   items: [
+                //     { label: 'How to Recreate GitRipper', slug: 'dijkstra-backend/gitripper/recreation/how-to-recreate-gitripper' },
+                //   ],
+                // },
+              ],
+            },
+            {
+              label: 'Helios',
+              items: [
+                { label: 'Introduction', slug: 'dijkstra-backend/helios/introduction' },
                 {
-                  label: 'Recreation',
+                  label: 'Setup & Deployment',
                   items: [
-                    { label: 'How to Recreate GitRipper', slug: 'dijkstra-backend/gitripper/recreation/how-to-recreate-gitripper' },
+                    // { label: 'How Deployment Works', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-deployment-works' },
+                    { label: 'How to Run Locally', slug: 'dijkstra-backend/helios/setup-and-deployment/how-to-run-locally' },
+                    { label: 'How to Test', slug: 'dijkstra-backend/helios/setup-and-deployment/how-to-test' },
                   ],
                 },
+                // {
+                //   label: 'Recreation',
+                //   items: [
+                //     { label: 'How to Recreate GitRipper', slug: 'dijkstra-backend/gitripper/recreation/how-to-recreate-gitripper' },
+                //   ],
+                // },
               ],
             },
           ],
