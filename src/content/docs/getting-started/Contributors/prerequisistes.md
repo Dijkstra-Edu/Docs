@@ -75,7 +75,7 @@ Your growth contributes to the community’s growth.
 ### Getting Started
 ---
 Start small. Explore the repositories. Pick an issue that interests you.  
-If you’re unsure where to begin, don’t hesitate to ask — we’re here to help.
+If you’re unsure where to begin, head to the [Getting Started]() Page. It has an overview of how to get up and running at Dijkstra.
 
 ---
 
