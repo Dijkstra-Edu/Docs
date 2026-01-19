@@ -68,7 +68,6 @@ i++
 Good:
 // retry once to handle transient network failure
 retry_count++
-````
 
 ---
 
