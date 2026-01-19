@@ -58,13 +58,13 @@ Hidden behavior is considered architectural debt.
 
 ---
 
-## 🧩 Backend Architecture
+## Backend Architecture
 
 Dijkstra backends are built using **FastAPI**, **Spring Boot**, and **Rust**, but follow a **shared conceptual structure** regardless of language.
 
 ---
 
-## FastAPI (Python) 🐍 
+## FastAPI (Python)
 
 ### Architectural Style
 
@@ -98,7 +98,7 @@ src/
 * Domain logic must be framework-agnostic
 
 
-## Spring Boot (Java)
+## Spring Boot
 
 ### Architectural Style
 
@@ -129,7 +129,7 @@ src/main/java/com/dijkstra/app/
 * Business rules live in the service/domain layer
 * Avoid fat controllers and anemic services
 
-## Rust (Backend / Systems) 🦀
+## Rust
 
 ### Architectural Style
 
@@ -183,7 +183,7 @@ src/
 
 ---
 
-## 🌐 Frontend Architecture (Next.js)
+## Frontend Architecture (Next.js)
 
 ### Architectural Style
 
@@ -239,7 +239,7 @@ Security is architectural, not just configurational.
 
 ---
 
-## Documentation Expectations 📚
+## Documentation Expectations 
 
 For each repository:
 

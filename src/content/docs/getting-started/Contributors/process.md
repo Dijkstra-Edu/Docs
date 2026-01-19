@@ -4,16 +4,13 @@ description: Contribution and review process followed in Dijkstra.
 ---
 
 This document explains how the projects at Dijktra are managed. 
-
-The goal of this process is to **protect contributors, maintainers, users, and the codebase**—in that order.
-
 Clarity in process reduces friction, avoids burnout, and ensures the project scales sustainably.
 
 ---
 
 ## Issue Lifecycle
 
-Every change in Dijkstra begins with an issue. Issues are not bureaucracy—they are the *shared memory* of the project.
+Every change in Dijkstra begins with an issue.
 
 ### 1. Issue Opened
 Anyone may open an issue.
@@ -136,7 +133,7 @@ Closed does not mean ignored—it means *concluded*.
 
 ---
 
-## Issue Labels 🏷️
+## Issue Labels 
 
 Labels are a navigation system for contributors and maintainers.
 
@@ -215,4 +212,3 @@ Hostility or dismissiveness is never acceptable.
 
 ---
 
-#### Happy contributing!

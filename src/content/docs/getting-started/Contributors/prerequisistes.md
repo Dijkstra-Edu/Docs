@@ -29,7 +29,6 @@ You are welcome here.
 
 ### Contributor Mindset
 ---
-More important than prior experience is *how* you contribute.
 
 We value contributors who:
 - are curious and eager to learn

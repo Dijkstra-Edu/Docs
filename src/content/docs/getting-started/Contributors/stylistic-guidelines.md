@@ -591,5 +591,3 @@ Avoid:
 Style that obscures intent becomes technical debt.
 
 ---
-
-Happy writing!

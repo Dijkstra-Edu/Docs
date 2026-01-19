@@ -253,9 +253,7 @@ We’re building a community, not just software.
 
 * Join our [Discord Server](https://discord.gg/Ct82yF3KAU)
 * Ask questions on issues or PRs
-* Reach out to maintainers when blocked
-
-No question is “too basic.”
+* Reach out to maintainers
 
 ---
 
@@ -264,10 +262,6 @@ No question is “too basic.”
 * Contributions are reviewed, not judged
 * Learning is encouraged
 * Consistency and clarity matter more than cleverness
-
----
-
-### Happy coding 🚀
 
 Thank you for contributing to **Dijkstra**!
 
