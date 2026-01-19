@@ -246,6 +246,7 @@ We allow the use of AI tools, including LLMs, **with responsibility**.
 * Disagreements are okay—disrespect is not
 
 We’re building a community, not just software.
+For more details, read our [Code of Conduct]().
 
 ---
 
