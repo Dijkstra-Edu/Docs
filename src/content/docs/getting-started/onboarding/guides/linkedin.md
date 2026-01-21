@@ -1,6 +1,45 @@
 ---
-title: LinkedIn Setup Guide
-description: Steps to setup LinkedIn as a new Dijkstra contributor.
+title: LinkedIn Onboarding
+description: Build your professional presence online.
 ---
 
-# A Simple LinkedIn Setup Guide for First Time Users
+## What is LinkedIn?
+
+LinkedIn is a professional networking platform.
+It is used to:
+- Showcase achievements
+- Connect with professionals
+- Find opportunities
+
+---
+
+## Step-by-Step Setup
+
+### 1. Sign up for LinkedIn
+- https://www.linkedin.com/signup
+
+![Alt text](/public/images/onboarding/linkedin-step1.png)
+
+### 2. Add a profile picture & summary
+- Use a clear professional photo
+- Write a short intro
+
+![Alt text](/public/images/onboarding/linkedin-step2.png)
+
+### 3. Add education & experience
+- Include college and projects
+
+![Alt text](/public/images/onboarding/linkedin-step3.png)
+
+### 4. Make meaningful connections
+- Aim for quality, not just quantity
+
+![Alt text](/public/images/onboarding/linkedin-step4.png)
+
+### 5. Share your work
+- Post your GitHub or LeetCode progress
+
+![Alt text](/public/images/onboarding/linkedin-step5.png)
+
+
+🎉 You’ve completed onboarding!
