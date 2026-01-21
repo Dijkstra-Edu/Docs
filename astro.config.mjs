@@ -271,13 +271,15 @@ export default defineConfig({
                 { label: 'iOS Mobile App', slug: 'gsoc-2026/project-list/ios-mobile-app' },
                 { label: 'Android Mobile App', slug: 'gsoc-2026/project-list/android-mobile-app' },
                 { label: 'Testing Setup', slug: 'gsoc-2026/project-list/testing-setup' },
-                { label: 'DataForge Cleanup', slug: 'gsoc-2026/project-list/dataforge-cleanup' },
+                //{ label: 'DataForge Cleanup', slug: 'gsoc-2026/project-list/dataforge-cleanup' },
                 { label: 'Learning Content', slug: 'gsoc-2026/project-list/learning-content' },
                 { label: 'Learning Hub', slug: 'gsoc-2026/project-list/learning-hub' },
-                { label: 'Verifications Engine', slug: 'gsoc-2026/project-list/verifications-engine' },
+                //{ label: 'Verifications Engine', slug: 'gsoc-2026/project-list/verifications-engine' },
                 { label: 'Browser Extension', slug: 'gsoc-2026/project-list/browser-extension' },
                 { label: 'ENV Locker CLI', slug: 'gsoc-2026/project-list/env-locker-cli' },
                 { label: 'Community Improvements', slug: 'gsoc-2026/project-list/community-improvements' },
+                { label: 'Student Public Dashboard and Certificate Generator', slug: 'gsoc-2026/project-list/student-dashboard-certificate-generator' },
+                { label: 'Archivist, Blog & Post System Implementation', slug: 'gsoc-2026/project-list/blogsystem' },
               ]
             },
 
