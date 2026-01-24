@@ -23,20 +23,20 @@ It keeps track of all your progress, an authethic report of all your work!
 - Go to https://github.com
 - Create an account using your email
 
-![Alt text](/public/images/onboarding/github-step1.png)
+![Alt text](/images/onboarding/github-step1.png)
 
 
 ### 2. Verify your email address
 - Check your inbox and verify your account
 
-![Alt text](/public/images/onboarding/github-step2.png)
+![Alt text](/images/onboarding/github-step2.png)
 
 ### 3. Complete your profile
 - Add a profile picture
 - Add a short bio
 - Set your username professionally
 
-![Alt text](/public/images/onboarding/github-step3.png)
+![Alt text](/images/onboarding/github-step3.png)
 
 ### 4. Create your first repository
 - Click **New Repository**
@@ -44,7 +44,7 @@ It keeps track of all your progress, an authethic report of all your work!
 - Initialize with a README
 - Make it PUBLIC
 
-![Alt text](/public/images/onboarding/github-step4.png)
+![Alt text](/images/onboarding/github-step4.png)
 
 ### 5. Explore GitHub features
 - Stars 
@@ -52,7 +52,7 @@ It keeps track of all your progress, an authethic report of all your work!
 - Pull Requests 
 - Issues 
 
-![Alt text](/public/images/onboarding/github-step5.png)
+![Alt text](/images/onboarding/github-step5.png)
 
 ## Key GitHub Features
 
