@@ -2359,4 +2359,3 @@ For more information about Git, refer to the official Git documentation:
 - [GitHub Help Documentation](https://docs.github.com/)
 - [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
 - [Git Large File Storage](https://git-lfs.github.com/)
-- [Oh Shit, Git!?!](https://ohshitgit.com/) - Beginner-friendly emergency solutions
