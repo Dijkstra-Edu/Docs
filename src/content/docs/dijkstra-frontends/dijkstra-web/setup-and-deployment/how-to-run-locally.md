@@ -37,6 +37,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Quick Start
 
+
 ### Step 1: Clone the Repository
 
 Open your terminal and run:
@@ -165,20 +166,6 @@ psql postgres
 CREATE DATABASE dijkstra;
 \q
 ```
-
-### Run Migrations
-
-```bash
-# Generate Prisma Client
-npx prisma generate
-
-# Run database migrations
-npx prisma migrate dev
-
-# Seed the database (if seed file exists)
-npx prisma db seed
-```
-
 ## Running the Development Server
 
 Start the development server:
@@ -215,20 +202,6 @@ Open your web browser and navigate to:
 http://localhost:3000
 ```
 
-You should see the Dijkstra Web platform homepage.
-
-## Available Routes
-
-Once running, you can access:
-
-- **Homepage** - `http://localhost:3000/`
-- **Login** - `http://localhost:3000/login`
-- **Dashboard** - `http://localhost:3000/dashboard` (after login)
-- **Profile** - `http://localhost:3000/profile` (after login)
-- **API Documentation** - `http://localhost:3000/api/docs` (if available)
-
-## Development Workflow
-
 ### File Structure
 
 ```
@@ -257,21 +230,6 @@ Dijkstra-Web/
 2. **Hot reload** - The server will automatically reload on file changes
 3. **Check console** - Monitor terminal for errors and warnings
 4. **Test locally** - Verify your changes work as expected
-
-### Linting and Formatting
-
-Run linting to check code quality:
-
-```bash
-# Run ESLint
-npm run lint
-
-# Fix linting issues automatically
-npm run lint:fix
-
-# Format code with Prettier (if configured)
-npm run format
-```
 
 ## Common Issues & Troubleshooting
 
@@ -382,4 +340,3 @@ If you encounter issues not covered in this guide:
 
 ---
 
-*Happy coding! 🚀*
