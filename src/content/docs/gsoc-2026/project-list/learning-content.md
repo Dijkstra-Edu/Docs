@@ -6,7 +6,6 @@ description: Creating comprehensive learning content and educational materials f
 **Duration:** 350 Hours \
 **Difficulty:** Medium \
 **Languages & Technologies:** TypeScript, Next.js, Astro.js, Markdown \
-**Repository:** [Dijkstra-Edu/Dijkstra-Web](https://github.com/Dijkstra-Edu/Dijkstra-Learning-Hub)
 
 ## Overview
 
@@ -15,10 +14,9 @@ This project focuses on creating high-quality learning content and educational m
 ## Objectives
 
 - Create comprehensive tutorials and guides
-- Develop learning paths for different user types
-- Write clear documentation for key concepts
-- Create examples and code samples
 - Develop interactive learning materials where appropriate
+- Create examples and code samples
+- Organise content into well defined learning paths
 
 ## Requirements
 

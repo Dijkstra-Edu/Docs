@@ -10,31 +10,33 @@ description: Enhancements to community pages and resources on the Dijkstra platf
 
 ## Overview
 
-This project focuses on improving the community pages and resources on the Dijkstra platform to better serve the community, improve discoverability of resources, and enhance user engagement.
+This project focuses on improving the **UI/UX of community pages and resources** on the Dijkstra platform to better serve the community, enhance the discoverability of resources, and increase overall user engagement. The goal is to ensure that community pages clearly reflect **Dijkstra’s core principles**, values, and culture, while remaining intuitive, accessible, and visually consistent with the broader platform.
+
+In addition, the project includes integrating a **feedback and contact mechanism** to enable more direct and effective communication with users. This will help the Dijkstra team better understand community needs, gather actionable insights, and continuously improve the platform based on user input.
 
 ## Objectives
 
 - Redesign and improve community pages UI/UX
-- Enhance resource discovery and organization
-- Improve content management for community resources
-- Implement better search and filtering capabilities
 - Create engaging community features
+- Enhance resource discovery and organization 
+- Implement better search and filtering capabilities
+- Improve content management for community resources
 
 ## Requirements
 
 - Experience with web development
+- Understanding of community engagement features
 - Understanding of UI/UX design principles
 - Knowledge of content management
 - Familiarity with frontend frameworks
-- Understanding of community engagement features
 
 ## Deliverables
 
 - Improved community pages
 - Enhanced resource organization
+- User feedback integration
 - Better search and discovery features
 - Updated documentation
-- User feedback integration
 
 ## Mentors
 

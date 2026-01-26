@@ -10,8 +10,12 @@ description: Development of a student public dashboard and certificate generator
 
 ## Overview
 
-This project involves developing a public dashboard for students to showcase their achievements and a certificate generator system that can create and verify certificates for completed courses, projects, or contributions on the Dijkstra platform.
+This project involves building a public student dashboard to showcase individual achievements, along with a certificate generation and verification system for courses, projects, and platform contributions on Dijkstra.
 
+Each certificate includes a QR code that links directly to the student’s public dashboard, enabling easy verification and sharing. The dashboard provides a consolidated view of a student’s profile and activity, including GitHub statistics, LeetCode performance, platform rank, completed projects, and relevant work experience. It serves as a simple, standardized way for students to present their credentials to universities and employers.
+
+Certificates are generated only after a student has been active on the Dijkstra platform for a minimum of six months. The system explicitly reflects the student’s level of engagement and consistency during this period, ensuring that certificates represent meaningful and sustained participation.
+  
 ## Objectives
 
 - Design and implement a public student dashboard
