@@ -8,7 +8,8 @@ description: iOS mobile application recreation of Dijkstra Web platform
 **Languages & Technologies:** Swift \
 **Repository:** [Dijkstra-Edu/Dijkstra-ios](https://github.com/Dijkstra-Edu/Dijkstra-IOS)
 
-Dijkstra is growing, and we would like to begin expanding into Mobile Software Engineering. We would like to provide students with the opportunity to develop with Swift and follow standard practices within the sphere of IOS App Development. 
+The Dijkstra platform is currently accessible only as a web application. To improve accessibility and convenience, we plan to introduce Dijkstra mobile applications. This expansion also gives us the opportunity to invite students interested in Switft development to collaborate with us in building a responsive, attractive, and easy-to-use iOS app. If you'd rather work on Android App development checkout: [link here]
+
 
 ## Objectives
 

@@ -10,14 +10,30 @@ description: Setting up comprehensive testing infrastructure for Dataforge, Heli
 
 ## Overview
 
-Codecov
-Unit, integration, End to End
-Python + FastAPI - pytest | TestClient | pyTest | Coverage.py + Codecov
-Java + Spring Boot - JUnit | MockMVC | Selenium/Cypress | Jacoco + Codecov
-Go + Gin - Go Test | httptest + Testify | godog | gotest --coverprofile + codecov
-Rust + Axum - Built in #test + toliotest | reqwest + tokio | reqwest | grcov + codecov
+This project focuses on establishing a comprehensive testing framework and coverage infrastructure across services in the Dijkstra ecosystem, covering both backend and frontend components. The objective is to improve code quality, reliability, and long-term maintainability by enforcing strong testing practices and measurable test coverage.
 
-This project focuses on establishing a comprehensive testing framework and infrastructure for three key Dijkstra projects: Dataforge, Helios, and Gitripper. The goal is to improve code quality, reliability, and maintainability through proper test coverage.
+The project will standardize unit, integration, and end-to-end (E2E) testing workflows across multiple technology stacks, with centralized reporting through Codecov.
+
+### Proposed Testing Stack
+
+#### Python (FastAPI)
+- **Unit & Integration Testing:** pytest, TestClient
+- **Coverage:** coverage.py
+- **Reporting:** Codecov
+
+#### Java (Spring Boot)
+- **Unit Testing:** JUnit
+- **Integration Testing:** MockMvc
+- **End-to-End Testing:** Selenium / Cypress
+- **Coverage:** JaCoCo
+- **Reporting:** Codecov
+
+#### Go (Gin)
+- **Unit Testing:** go test
+- **Integration Testing:** httptest, Testify
+- **End-to-End / BDD:** godog
+- **Coverage:** go test --coverprofile
+- **Reporting:** Codecov
 
 ## Objectives
 

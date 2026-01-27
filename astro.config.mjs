@@ -119,37 +119,16 @@ export default defineConfig({
                 {
                   label: 'Setup & Deployment',
                   items: [
-                    // { label: 'How Deployment Works', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-deployment-works' },
                     { label: 'How to Run Locally', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-to-run-locally' },
                     { label: 'How to Test', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-to-test' },
                   ],
                 },
-                // {
-                //   label: 'Recreation',
-                //   items: [
-                //     { label: 'How to Recreate GitRipper', slug: 'dijkstra-backend/gitripper/recreation/how-to-recreate-gitripper' },
-                //   ],
-                // },
               ],
             },
             {
               label: 'Helios',
               items: [
-                { label: 'Introduction', slug: 'dijkstra-backend/helios/introduction' },
-                {
-                  label: 'Setup & Deployment',
-                  items: [
-                    // { label: 'How Deployment Works', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-deployment-works' },
-                    { label: 'How to Run Locally', slug: 'dijkstra-backend/helios/setup-and-deployment/how-to-run-locally' },
-                    { label: 'How to Test', slug: 'dijkstra-backend/helios/setup-and-deployment/how-to-test' },
-                  ],
-                },
-                // {
-                //   label: 'Recreation',
-                //   items: [
-                //     { label: 'How to Recreate GitRipper', slug: 'dijkstra-backend/gitripper/recreation/how-to-recreate-gitripper' },
-                //   ],
-                // },
+                { label: 'Introduction', slug: 'dijkstra-backend/helios/introduction' }
               ],
             },
           ],
@@ -268,18 +247,18 @@ export default defineConfig({
             { label: 'Project List', slug: 'gsoc-2026/project-list' },
             {
               label: 'Project List', items: [
+                { label: 'Dijkstra Intelligence', slug: 'gsoc-2026/project-list/dijkstra-intelligence' },
+                { label: 'Archivist Enhancements', slug: 'gsoc-2026/project-list/blogsystem' },
+                { label: 'Learning Hub', slug: 'gsoc-2026/project-list/learning-hub' },
+                { label: 'Dijkstra Teams', slug: 'gsoc-2026/project-list/dijkstra-teams' },
+                { label: 'Student Achievements Dashboard and Certificate Generator', slug: 'gsoc-2026/project-list/student-dashboard-certificate-generator' },
+                { label: 'Testing Setup', slug: 'gsoc-2026/project-list/testing-setup' },
+                { label: 'Learning Content', slug: 'gsoc-2026/project-list/learning-content' },
+                { label: 'Dijkstra Browser Extension', slug: 'gsoc-2026/project-list/browser-extension' },
+                { label: 'Community Improvements', slug: 'gsoc-2026/project-list/community-improvements' },
+                { label: 'Dijkstra Jira', slug: 'gsoc-2026/project-list/dijkstra-jira' },
                 { label: 'iOS Mobile App', slug: 'gsoc-2026/project-list/ios-mobile-app' },
                 { label: 'Android Mobile App', slug: 'gsoc-2026/project-list/android-mobile-app' },
-                { label: 'Testing Setup', slug: 'gsoc-2026/project-list/testing-setup' },
-                //{ label: 'DataForge Cleanup', slug: 'gsoc-2026/project-list/dataforge-cleanup' },
-                { label: 'Learning Content', slug: 'gsoc-2026/project-list/learning-content' },
-                { label: 'Learning Hub', slug: 'gsoc-2026/project-list/learning-hub' },
-                //{ label: 'Verifications Engine', slug: 'gsoc-2026/project-list/verifications-engine' },
-                { label: 'Browser Extension', slug: 'gsoc-2026/project-list/browser-extension' },
-                { label: 'ENV Locker CLI', slug: 'gsoc-2026/project-list/env-locker-cli' },
-                { label: 'Community Improvements', slug: 'gsoc-2026/project-list/community-improvements' },
-                { label: 'Student Public Dashboard and Certificate Generator', slug: 'gsoc-2026/project-list/student-dashboard-certificate-generator' },
-                { label: 'Archivist, Blog & Post System Implementation', slug: 'gsoc-2026/project-list/blogsystem' },
               ]
             },
 
