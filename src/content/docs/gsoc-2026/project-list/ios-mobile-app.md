@@ -42,5 +42,6 @@ With the final outcome being to launch this application to the playstore!
 ## Mentors
 
 - Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/jrs296))
+- Abdul Wahab ([GitHub](https://github.com/AbdulWahab938), [Discord](https://discord.com/Awahab))
 
 > We would like you to hopefully mentor the next generation as well! (This is the Dijkstra way, we learn to teach!) and to hopefully become a codeowner that other developers can look to for knowledge and guidance down the years.
