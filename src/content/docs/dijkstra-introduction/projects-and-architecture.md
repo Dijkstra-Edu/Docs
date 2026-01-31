@@ -5,7 +5,7 @@ description: Overview of major projects and the system architecture.
 
 Dijkstra is layed out as an intricate system of microservices, built with various languages and frameworks, each handling a specific functionality within the Dijkstra ecosystem, and serving another purpose as an avenue for students to develop their skills within the Dijkstra ecosystem.
 
-![Dijkstra Overview](/public/images/introduction/dijkstra.png)
+![Dijkstra Overview](/images/introduction/dijkstra.png)
 
 Here is a brief overview of the services, the languages and their functionality:
 

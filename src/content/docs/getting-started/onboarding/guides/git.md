@@ -23,7 +23,7 @@ Git works locally on your computer, while GitHub hosts your code online. Now you
 - Complete the installation
 - Verify by running `git --version` in the terminal
 
-![Alt text](/public/images/onboarding/git-step1.png)
+![Alt text](/images/onboarding/git-step1.png)
 
 ### 2. Configure your identity
 - Set your name and email so Git can track your commits
@@ -32,7 +32,7 @@ Git works locally on your computer, while GitHub hosts your code online. Now you
 git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com"
 ```
-![Alt text](/public/images/onboarding/git-step2.png)
+![Alt text](/images/onboarding/git-step2.png)
 
 ### 3. Learn basic commands
 
@@ -42,7 +42,7 @@ git config --global user.email "your-email@example.com"
 - git commit -m "message" → save a version
 - git log → view commit history
 
-![Alt text](/public/images/onboarding/git-step3.png)
+![Alt text](/images/onboarding/git-step3.png)
 
 
 ### 5. Make your first commit
@@ -55,4 +55,4 @@ git add .
 git commit -m "Initial commit"
 ```
 
-![Alt text](/public/images/onboarding/git-step4.png)
+![Alt text](/images/onboarding/git-step4.png)
