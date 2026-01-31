@@ -7,7 +7,7 @@ description: Overview of GSOC at Dijkstra
 
 The [Google Summer of Code (GSOC)](https://summerofcode.withgoogle.com/) is a program that allows students to contribute to the development of open-source projects, mentored by participating organizations.
 
-Dijkstra is an open=source organization aimed towards improving CS education in India (and the world!). The world of software is ever changing and evolving, and we would like to be at the forefront to help students prepare for software based jobs, by building up their fundamentals through visibile and credible proof-of-work.
+Dijkstra is an open-source organization aimed towards improving CS education in India (and the world!). The world of software is ever changing and evolving, and we would like to be at the forefront to help students prepare for software based jobs, by building up their fundamentals through visibile and credible proof-of-work.
 
 In 2026, Dijkstra aims to participate as a mentoring organization, with the overall aim being to foster good open source activity among students in universities. Please have a look at the general [program rules](https://summerofcode.withgoogle.com/rules/) and the [timeline](https://developers.google.com/open-source/gsoc/timeline) provided by Google.
 

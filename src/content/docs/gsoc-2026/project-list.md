@@ -3,41 +3,33 @@ title: Dijkstra Project List for GSOC 2026
 description: Dijkstra Project List for GSOC 2026
 ---
 
-### Full List of Dijkstra Projects and Potential Proposals
+## AI/ML Development
+  - [Enhance the capabilites of Dijkstra-Intelligence](/gsoc-2026/project-list/dijkstra-intelligence) - 350 hours, Hard, Python
 
-- Web (Frontend) Development
+## Web (Frontend) Development
   - [Student Public Dashboard and Certificate Generator](/gsoc-2026/project-list/student-dashboard-certificate-generator) - 175-350 hours, Medium, TypeScript 
   - [Learning Hub for Dijkstra Web](/gsoc-2026/project-list/learning-hub) - 350 Hours, Medium, TypeScript, Next.js
   - [Browser Extension for Autofilling Profile Data](/gsoc-2026/project-list/browser-extension) - 90 hours, Easy, TypeScript
   - [Improvements to Landing and Community Pages](/gsoc-2026/project-list/community-improvements) - 90-175 hours, Easy, TypeScript
+  - [Dijkstra Teams Management](/gsoc-2026/project-list/dijkstra-teams) - 90 hours, Medium, TypeScript
+    <!-- - [Dijkstra Jira Implementation](/gsoc-2026/project-list/dijkstra-jira) -->
 
-    <!-- - [Dijkstra Blog System]() - 175-350 hours, Medium, TypeScript -->
-
-- Server (Backend) Development
+## Server (Backend) Development
   - [Setup Testing for Dataforge, Helios, Gitripper and Archivist](/gsoc-2026/project-list/testing-setup) - 90-175-350 hours - Easy-Medium, Multiple Testing Frameworks
-  <!-- - [Archivist Improvements](/gsoc-2026/project-list/archivist-improvements) - 175-350 hours, Medium, Go, Gin -->
-    <!-- - [Verifications Engine - Mechanism to verify user contributions and credentials](/gsoc-2026/project-list/verifications-engine) - 350 Hours, Hard, Rust, Axum, Python, FastAPI -->
 
-- Full Stack Development
+## Full Stack Development
   - [Archivist, Blog & Post System Implementation](/gsoc-2026/project-list/blogsystem) - 175 hours, Medium, TypeScript, Go, Gin
 
-<!-- - Mobile Development -->
-  
-
-<!-- - Compliance and Code Cleanup
-  - [Code Cleanup - DataForge](/gsoc-2026/project-list/dataforge-cleanup) - 90-175 hours, Easy, Python, FastAPI
-  - [Code Cleanup - Dijkstra Web](/gsoc-2026/project-list/dijkstra-web-cleanup) - 90-175 hours, Easy, TypeScript, Next.Js, TanStack Query -->
-
-- Docs
+## Docs
   - [Creation of Learning Content for Dijkstra](/gsoc-2026/project-list/learning-content) - 90-350 hours, Medium, Research, Education, Markdown
-<!--  - [Improvements to Community Pages/Resources](/gsoc-2026/project-list/community-improvements) - 90 hours, Easy, TypeScript, Markdown -->
 
-- Experiemental Ideas (but low priority)
-  - [CLI Development - ENV Variables locker for users](/gsoc-2026/project-list/env-locker-cli) - 175 hours, Medium, Undecided
+## Experiemental Ideas (but low priority)
   - [IOS Recreation of Dijkstra Web](/gsoc-2026/project-list/ios-mobile-app) - 350 Hours, Hard, Swift
   - [Android Recreation of Dijkstra Web](/gsoc-2026/project-list/android-mobile-app) - 350 hours, Hard, Kotlin
 
-### Here are some Good First Issues for getting started at Dijkstra: 
+## Good First Issues
+
+Here are some Good First Issues for getting started at Dijkstra: 
 
 - Frontends
     - [Dijkstra Web](https://github.com/orgs/Dijkstra-Edu/projects/7) - TypeScript, Next.js
