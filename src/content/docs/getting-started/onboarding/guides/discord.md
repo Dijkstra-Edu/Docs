@@ -25,7 +25,7 @@ We use it for:
 ### 2. Join our Discord server
 - A server is a community space
 - Channels organize conversations by topic
-- Use the invite link provided
+- Use the invite link provided. <a href="https://discord.gg/e9daneY9dW" target="_blank">Dijkstra Discord Server</a>
 - Read the rules channel
 
 ![Alt text](/images/onboarding/discord-step2.png)

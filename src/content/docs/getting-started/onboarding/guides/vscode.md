@@ -18,6 +18,7 @@ It supports:
 ### 1. Download and install VS Code
 - https://code.visualstudio.com
 
+
 ![Alt text](/images/onboarding/vscode-step1.png) ![Alt text](/images/onboarding/vscode-step1a.png) ![Alt text](/images/onboarding/vscode-step1b.png)![Alt text](/images/onboarding/vscode-step1c.png)
 
 ### 2. Install essential extensions
@@ -50,7 +51,7 @@ It supports:
 
 ### 6. Start a project!
 - Create a new folder, and open it as editor here. You can add and edit files to it.
-- Or you can also clone a repository from github and work on it.
+- Or you can also paste a repo link from github into the "Clone Repository" option to edit.
 
 ![Alt text](/images/onboarding/vscode-step5.png)
 
