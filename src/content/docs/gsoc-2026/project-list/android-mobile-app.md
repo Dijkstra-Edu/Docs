@@ -8,17 +8,12 @@ description: Android mobile application recreation of Dijkstra Web platform
 **Languages & Technologies:** Kotlin, Android Studio \
 **Repository:** [Dijkstra-Edu/Dijkstra-Android](https://github.com/Dijkstra-Edu/Dijkstra-Android)
 
-Dijkstra is growing, and we would like to begin expanding into Mobile Software Engineering. We would like to provide students with the opportunity to develop with Kotlin and follow standard practices within the sphere of Android App Development. 
+The Dijkstra platform is currently accessible only as a web application. To improve accessibility and convenience, we plan to introduce Dijkstra mobile applications. This expansion also gives us the opportunity to invite students interested in Kotlin development to collaborate with us in building a responsive, attractive, and easy-to-use Android app. If you'd rather work on iOS App development checkout: [link here]
 
 ## Objectives
 
 - Develop a native Android application using Kotlin
 - Recreate core features from Dijkstra Web
-    - The Onboarding Flow
-    - This includes the Dashboard
-    - The Profile View Page
-    - Dijkstra GPT
-    - The opportunities board
 - Ensure responsive design and optimal user experience on Android devices
 - Implement proper navigation and mobile-specific UI patterns following Material Design (or other similar options) principles.
 
@@ -34,7 +29,7 @@ Dijkstra is growing, and we would like to begin expanding into Mobile Software E
 - Fully functional Android application
 - Source code with proper documentation
 - User documentation
-- (optional) Testing infrastructure!
+- [Optional] Testing infrastructure!
 
 With the final outcome being to launch this application to the playstore!
 
