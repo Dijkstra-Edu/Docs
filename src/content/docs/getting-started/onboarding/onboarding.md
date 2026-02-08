@@ -23,4 +23,3 @@ You’ll be guided through:
 
 Take your time — progress is saved, and you can return anytime.
 
-👉 Start with: [GitHub Onboarding](/github)

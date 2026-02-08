@@ -45,4 +45,4 @@ It helps with:
 
 ![Alt text](/images/onboarding/leetcode-step5a.png)
 
-👉 Next: [LinkedIn](/getting-started/onboarding/guides/linkedin)
+
