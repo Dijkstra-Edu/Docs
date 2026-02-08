@@ -55,4 +55,3 @@ It supports:
 
 ![Alt text](/images/onboarding/vscode-step5.png)
 
-👉 Next: [Discord Setup](/getting-started/onboarding/guides/discord)

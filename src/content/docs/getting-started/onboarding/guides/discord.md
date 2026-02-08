@@ -47,4 +47,4 @@ We use it for:
 
 ![Alt text](/images/onboarding/discord-step5.png)
 
-👉 Next: [Leetcode](/getting-started/onboarding/guides/linkedin)
+
