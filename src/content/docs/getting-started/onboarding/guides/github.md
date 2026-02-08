@@ -104,4 +104,4 @@ Issues can be:
 They help teams organize work and communicate clearly.
 
 
-👉 Next: [Git Basics](/getting-started/onboarding/guides/git)
+

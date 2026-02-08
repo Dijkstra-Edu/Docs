@@ -27,7 +27,7 @@ Git works locally on your computer, while GitHub hosts your code online. Now you
 
 ### 2. Configure your identity
 - Set your name and email so Git can track your commits
-- Run the following commands:
+- Run the following commands on Terminal:
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com"
