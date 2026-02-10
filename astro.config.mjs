@@ -30,7 +30,6 @@ export default defineConfig({
             { label: 'Mission', slug: 'dijkstra-introduction/mission' },
             { label: 'Approach', slug: 'dijkstra-introduction/approach' },
             { label: 'Philosophy', slug: 'dijkstra-introduction/philosophy' },
-            { label: 'Onboarding', slug: 'dijkstra-introduction/onboarding' },
             { label: 'Projects and Architecture', slug: 'dijkstra-introduction/projects-and-architecture' },
           ],
         },
@@ -38,6 +37,25 @@ export default defineConfig({
           label: 'Getting Started',
           items: [
             { label: 'Start Here', slug: 'getting-started/start-here' },
+            {
+              label: 'Onboarding',
+              items: [
+                { label: 'Onboarding Steps', slug: 'getting-started/onboarding/onboarding' },
+                {
+                  label: 'Setup Guides',
+                  items: [
+                    { label: 'GitHub', slug: 'getting-started/onboarding/guides/github' },
+                    { label: 'Git', slug: 'getting-started/onboarding/guides/git' },
+                    { label: 'VS Code', slug: 'getting-started/onboarding/guides/vscode' },
+                    { label: 'Discord', slug: 'getting-started/onboarding/guides/discord' },
+                    { label: 'Leetcode', slug: 'getting-started/onboarding/guides/leetcode' },
+                    { label: 'LinkedIn', slug: 'getting-started/onboarding/guides/linkedin' },
+                  ],
+                },
+                { label: 'Join Dijkstra', slug: 'getting-started/onboarding/join-djikstra' },
+                { label: 'Publicise Status', slug: 'getting-started/onboarding/publicise-status' },
+              ],
+            },
             {
               label: 'Contributors',
               items: [
@@ -98,21 +116,19 @@ export default defineConfig({
               label: 'GitRipper',
               items: [
                 { label: 'Introduction', slug: 'dijkstra-backend/gitripper/introduction' },
-                { label: 'Postgres Setup', slug: 'dijkstra-backend/gitripper/postgres-setup' },
                 {
                   label: 'Setup & Deployment',
                   items: [
-                    { label: 'How Deployment Works', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-deployment-works' },
                     { label: 'How to Run Locally', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-to-run-locally' },
                     { label: 'How to Test', slug: 'dijkstra-backend/gitripper/setup-and-deployment/how-to-test' },
                   ],
                 },
-                {
-                  label: 'Recreation',
-                  items: [
-                    { label: 'How to Recreate GitRipper', slug: 'dijkstra-backend/gitripper/recreation/how-to-recreate-gitripper' },
-                  ],
-                },
+              ],
+            },
+            {
+              label: 'Helios',
+              items: [
+                { label: 'Introduction', slug: 'dijkstra-backend/helios/introduction' }
               ],
             },
           ],
@@ -224,11 +240,34 @@ export default defineConfig({
           ],
         },
         {
+          label: 'GSOC 2026',
+          items: [
+            { label: 'Overview', slug: 'gsoc-2026/overview' },
+            { label: 'Project Proposal', slug: 'gsoc-2026/project-proposal' },
+            { label: 'Project List', slug: 'gsoc-2026/project-list' },
+            {
+              label: 'Project List', items: [
+                { label: 'Dijkstra Intelligence', slug: 'gsoc-2026/project-list/dijkstra-intelligence' },
+                { label: 'Archivist Enhancements', slug: 'gsoc-2026/project-list/blogsystem' },
+                { label: 'Learning Hub', slug: 'gsoc-2026/project-list/learning-hub' },
+                { label: 'Dijkstra Teams', slug: 'gsoc-2026/project-list/dijkstra-teams' },
+                { label: 'Student Achievements Dashboard and Certificate Generator', slug: 'gsoc-2026/project-list/student-dashboard-certificate-generator' },
+                { label: 'Testing Setup', slug: 'gsoc-2026/project-list/testing-setup' },
+                { label: 'Learning Content', slug: 'gsoc-2026/project-list/learning-content' },
+                { label: 'Dijkstra Browser Extension', slug: 'gsoc-2026/project-list/browser-extension' },
+                { label: 'Community Improvements', slug: 'gsoc-2026/project-list/community-improvements' },
+                { label: 'Dijkstra Jira', slug: 'gsoc-2026/project-list/dijkstra-jira' },
+                { label: 'iOS Mobile App', slug: 'gsoc-2026/project-list/ios-mobile-app' },
+                { label: 'Android Mobile App', slug: 'gsoc-2026/project-list/android-mobile-app' },
+              ]
+            },
+
+          ],
+        },
+        {
           label: 'Guides',
           items: [
-            { label: 'Authoring Content', slug: 'guides/authoring-content' },
-            { label: 'Join Dijkstra', slug: 'guides/join-djikstra' },
-            { label: 'Publicise Status', slug: 'guides/publicise-status' },
+            { label: 'Authoring Content', slug: 'guides/authoring-content' }
           ],
         },
       ],
