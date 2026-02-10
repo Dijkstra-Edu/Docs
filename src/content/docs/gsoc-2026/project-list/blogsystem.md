@@ -39,7 +39,7 @@ Additionally, the project will introduce a mechanism for the automatic generatio
 
 ## Mentors
 
-- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/jrs296))
-- Kailash ([GitHub](https://github.com/SenthilkumarKailash), [Discord](https://discord.com/SenthilkumarKailash))
+- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/users/452140771206758421))
+- Kailash Senthilkumar ([GitHub](https://github.com/SenthilkumarKailash), [Discord](https://discord.com/users/995274620259274752))
 
 > We would like you to hopefully mentor the next generation as well! (This is the Dijkstra way, we learn to teach!) and to hopefully become a codeowner that other developers can look to for knowledge and guidance down the years.

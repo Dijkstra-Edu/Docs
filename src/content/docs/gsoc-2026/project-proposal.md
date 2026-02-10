@@ -32,10 +32,12 @@ We encourage you to think of your own interesting project ideas! There are plent
 
 If you want to discuss our suggested project ideas or your own idea, you can do so on Dijkstra's Discord Channel. We have a dedicated [#gsoc]() channel for this that you can use. Either try to find a Zulip topic that already discusses the project idea that you are interested in.
 
-Dijkstra has three [organization admins](https://developers.google.com/open-source/gsoc/help/responsibilities) whose goal is to facilitate the communication of potential GSoC contributors and the mentors, and to manage the administration of the GSoC projects:
-- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/jrs296))
-- Dellwyn Tennison ([GitHub](https://github.com/happydracula), [Discord](https://discord.com/happydracula))
-- Kush Ojha ([GitHub](https://github.com/keri-prog), [Discord](https://discord.com/keri_k))
+Dijkstra has five [organization admins](https://developers.google.com/open-source/gsoc/help/responsibilities) whose goal is to facilitate the communication of potential GSoC contributors and the mentors, and to manage the administration of the GSoC projects:
+- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/users/452140771206758421))
+- Dellwyn Tennison ([GitHub](https://github.com/happydracula), [Discord](https://discord.com/users/756107393070399510))
+- Abdul Wahab ([GitHub](https://github.com/AbdulWahab938), [Discord](https://discord.com/users/1314947048222490765))
+- Kailash Senthilkumar ([GitHub](https://github.com/SenthilkumarKailash), [Discord](https://discord.com/users/995274620259274752))
+- Kush Ojha ([GitHub](https://github.com/keri-prog), [Discord](https://discord.com/users/512573925306138625))
 
 When communicating on the Dijkstra Discord (and when interacting with the Dijkstra community in general), please remember to be polite and uphold the [Code of Conduct](). Please treat both contributors and mentors alike with respect and avoid spamming.
 

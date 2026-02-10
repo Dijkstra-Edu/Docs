@@ -44,7 +44,7 @@ Certificates are generated only after a student has been active on the Dijkstra 
 
 ## Mentors
 
-- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/jrs296))
-- Abdul Wahab ([GitHub](https://github.com/AbdulWahab938), [Discord](https://discord.com/Awahab))
+- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/users/452140771206758421))
+- Abdul Wahab ([GitHub](https://github.com/AbdulWahab938), [Discord](https://discord.com/users/1314947048222490765))
 
 > We would like you to hopefully mentor the next generation as well! (This is the Dijkstra way, we learn to teach!) and to hopefully become a codeowner that other developers can look to for knowledge and guidance down the years.

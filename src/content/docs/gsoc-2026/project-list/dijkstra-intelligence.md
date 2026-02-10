@@ -39,8 +39,8 @@ An AI-powered chatbot will provide an interactive interface for users, while gua
 
 ## Mentors
 
-- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/jrs296))
-- Dellwyn Tennison ([GitHub](https://github.com/happydracula), [Discord](https://discord.com/happydracula))
-- Kush Ojha ([GitHub](https://github.com/keri-prog), [Discord](https://discord.com/keri_k))
+- Jonathan Samuel ([GitHub](https://github.com/JRS296), [Discord](https://discord.com/users/452140771206758421))
+- Dellwyn Tennison ([GitHub](https://github.com/happydracula), [Discord](https://discord.com/users/756107393070399510))
+- Kush Ojha ([GitHub](https://github.com/keri-prog), [Discord](https://discord.com/users/512573925306138625))
 
 > We would like you to hopefully mentor the next generation as well! (This is the Dijkstra way, we learn to teach!) and to hopefully become a codeowner that other developers can look to for knowledge and guidance down the years.
